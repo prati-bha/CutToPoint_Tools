@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/869a29c6cf.js"></script>    <title>Tools</title>
+<style>
+    .body{
+        margin:10%;
+        padding: 10%;
+    }
+    .header{
+clip-path: polygon(50% 0%, 100% 0, 89% 52%, 100% 100%, 0 100%, 0% 60%, 0 0);
+        
+        background-color: dodgerblue;
+/*clip-path: polygon(0% 0%, 0% 100%, 12% 82%, 10% 10%, 89% 8%, 87% 85%, 17% 86%, 0 100%, 100% 100%, 100% 0%);
+        */width: 100%;
+        height: 100%;
+        font-size: 600%;
+        text-align: center;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+
+}
+
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.fas,.fab
+{
+    font-size:100px;
+    color:#7D6F8C;
+}
+
+.flip-content {
+    
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-content-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+    background-color:transparent;
+    color:#EC7063;
+
+}
+.flip-content:hover .flip-content-inner {
+  transform: rotateY(180deg);
+}
+.flip-content-front
+{
+    margin-top:20%;
+    background-color:transparent;
+   text-align: center;
+
+}
+.flip-content-front, .flip-content-back {
+   margin-top:20%;
+  position: absolute;
+   background-color:none !important;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-content-back {
+    width: 100%;
+    height: 100%;
+    color: #7D6F8C;
+    font-size:150%;
+    transform: rotateY(180deg);
+    text-align:justify;
+    font-weight:bold;
+    
+}
+</style>
+</head>
+<body>
+    <div class="header">
+            CutToPoint Tools
+    </div>
+    <div class="main">
+    <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+        <i class="fab fa-searchengin"></i>            
+            <h1>Search On Fingertips</h1>
+            </div>
+            <div class="flip-content-back">
+            <p><i>Tired of ads, Pop-Ups , and useless links??.Get your content downloaded direct from the right links.
+            </i></p> 
+            </div>
+            </div>
+            </div>
+            <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-code"></i>
+            <h1>Code Log</h1>
+            </div>
+            <div class="flip-content-back">
+            
+            <p><i>Code Log Serves as you a storage for your codes just remember the id and password and get your code in your plate. </i></p> 
+
+            </div>
+            </div>
+            </div>
+            <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-gamepad"></i>
+            <h1>Save the Ball</h1>
+            </div>
+            <div class="flip-content-back">
+            
+            <p><i>Your Life Saviour while you have nothing to do. Play the game and beat your scores everytime.</i></p> 
+
+            </div>
+            </div>
+            </div>
+            <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-camera"></i>
+            <h1>Browser Camera</h1>
+            </div>
+            <div class="flip-content-back">
+            
+            <p><i>If in case your camera app does not works for some reason, we have a browser camera for you. Click on it with all smiles.</i></p> 
+
+            </div>
+            </div>
+            </div>
+            <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-smile-wink"></i>
+            <h1>Get The Joke</h1>
+            </div>
+            <div class="flip-content-back">
+            
+            <p><i>Smile high with our jokes generator which will make you smile for long time.</i></p> 
+
+            </div>
+            </div>
+            </div>
+            <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-dragon"></i>
+            <h1>A Tribute to GOT</h1>
+            </div>
+            <div class="flip-content-back">
+            
+            <p><i>GOT Fan? Ahh I am also, this is my tribute to got, this tool will make u remember
+            all the famous dialouges of GOT</i></p> 
+
+            </div>
+            </div>
+            </div>
+            <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-random"></i>
+            <h1>Random Memer</h1>
+            </div>
+            <div class="flip-content-back">
+            <p><i>Bored!! Get Random Memes with our random meme generator and relate it to your friends</i></p> 
+            </div>
+            </div>
+            </div>
+             <div class="flip-content">
+            <div class="flip-content-inner">
+            <div class="flip-content-front">
+            <i class="fas fa-photo-video"></i>
+            <h1>Online Video Player</h1>
+            </div>
+            <div class="flip-content-back">
+            
+            <p><i>Play your videos on our online player without downloading,add the link and kick start the video.</i></p> 
+
+            </div>
+            </div>
+            </div>
+             
+    </div>
+</body>
+</html>
